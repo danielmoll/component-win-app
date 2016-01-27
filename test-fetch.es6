@@ -7,6 +7,44 @@ export default (url) => {
   if (/article/.test(url)) {
     const articles = {
       1: {
+        metaTags: [
+          {
+            property: 'og:type',
+            content: 'ARTICLE_LEAD',
+          },
+          {
+            property: 'og:title',
+            content: 'hello world',
+          },
+          {
+            property: 'og:description',
+            content: 'China will probably avoid a hard landing.',
+          },
+          {
+            property: 'og:image',
+            content: 'http://cms-worldin.economist.com/sites/default/files/Leaders-A-liberals-lament-3570x1680.jpg',
+          },
+          {
+            property: 'og:image:width',
+            content: '1190',
+          },
+          {
+            property: 'og:image:height',
+            content: '560',
+          },
+          {
+            property: 'twi_article:published_time',
+            content: '2015-11-02T14:00:00.625Z',
+          },
+          {
+            property: 'twi_article:modified_time',
+            content: '2016-01-20T17:09:49.756Z',
+          },
+          {
+            property: 'ARTICLE_LEAD:section',
+            content: 'Leaders',
+          },
+        ],
         slug: 'hello-world',
         title: 'hello world',
         flytitle: 'hello world flytitle',
@@ -31,6 +69,44 @@ export default (url) => {
         },
       },
       2: {
+        metaTags: [
+          {
+            property: 'og:type',
+            content: 'ARTICLE_LEAD',
+          },
+          {
+            property: 'og:title',
+            content: 'hello world 2',
+          },
+          {
+            property: 'og:description',
+            content: 'China will probably avoid a hard landing.',
+          },
+          {
+            property: 'og:image',
+            content: 'http://cms-worldin.economist.com/sites/default/files/Leaders-A-liberals-lament-3570x1680.jpg',
+          },
+          {
+            property: 'og:image:width',
+            content: '1190',
+          },
+          {
+            property: 'og:image:height',
+            content: '560',
+          },
+          {
+            property: 'twi_article:published_time',
+            content: '2015-11-02T14:00:00.625Z',
+          },
+          {
+            property: 'twi_article:modified_time',
+            content: '2016-01-20T17:09:49.756Z',
+          },
+          {
+            property: 'ARTICLE_LEAD:section',
+            content: 'Leaders',
+          },
+        ],
         slug: 'hello-world-2',
         title: 'hello world 2',
         flytitle: 'hello world 2 flytitle',
